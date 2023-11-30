@@ -163,6 +163,15 @@ footer {
 footer h4 {
     color: var(--white);
 }
+/*media query for large screens */
+@media screen and (min-width: 100rem) {
+    h2,li {
+    font-size: 3rem ;
+    }
+    p,h4, button {
+        font-size: 2rem ;
+        }
+}
 /*media query for tablets */
 @media screen and (max-width: 55em) {
     #menu-toggle {
